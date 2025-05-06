@@ -1,20 +1,28 @@
 <keymap version="1" name="Oryx Keymap Windows" parent="$default">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="$Paste">
-    <keyboard-shortcut first-keystroke="alt v" />
     <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift ctrl z" />
     <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="alt y" />
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="alt z" />
   </action>
   <action id="ActivateCommitToolWindow" />
   <action id="ActivateServicesToolWindow">
@@ -64,9 +72,15 @@
   <action id="DomCollectionControl.Edit" />
   <action id="EditSource" />
   <action id="EditSourceInNewWindow" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="alt v" />
     <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="EditorAddOrRemoveCaret" />
   <action id="EditorAddRectangularSelectionOnMouseDrag" />
@@ -251,7 +265,6 @@
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="Terminal.Paste">
-    <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="alt v" />
   </action>

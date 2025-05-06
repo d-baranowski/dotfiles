@@ -1,0 +1,1 @@
+On windows run .\install.bat to copy the files into the correct locations
