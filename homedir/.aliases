@@ -1,0 +1,7 @@
+alias ga="git add -p"
+alias gs="git status"
+alias bstack='f() { git reflog | grep checkout | cut -d " " -f 8 | uniq | head ${1} | cat -n };f'
+
+awslocal() {
+  aws --endpoint-url=http://localhost:4566 "$@"
+}
